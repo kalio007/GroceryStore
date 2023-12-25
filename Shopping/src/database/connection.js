@@ -14,7 +14,6 @@ module.exports = async() => {
     } catch (error) {
         console.log('Error ============')
         console.log(error);
-        process.exit(1);
     }
  
 };
